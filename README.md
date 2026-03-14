@@ -15,6 +15,8 @@ households
 median_income
 median_house_value
 ocean_proximity
+bedroom ratio
+household room
 
 Used dataset from Kaggle https://www.kaggle.com/datasets/camnugent/california-housing-prices
 
@@ -28,12 +30,17 @@ Used dataset from Kaggle https://www.kaggle.com/datasets/camnugent/california-ho
 8. medianIncome: Median income for households within a block of houses (measured in tens of thousands of US Dollars)
 9. medianHouseValue: Median house value for households within a block (measured in US Dollars)
 10. oceanProximity: Location of the house w.r.t ocean/sea
+11.bedroom raito = total_bedroom/total_rooms
+12.household room = households/total_rooms
 
 # Results
 
 Model performance on the test dataset:
 
-* Linear Regression R² Score: 0.64
-* Random Forest R² Score: 0.82
+* Linear Regression R² Score: 0.6665590271750416
+* Random Forest R² Score: 0.8208801326616076
 
 The Random Forest model performed better because it can capture non-linear relationships in the data.
+
+
+I  working with the Hyperparameter tuning with Random Forest Model(there in the code). Results yet to be updated.
